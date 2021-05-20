@@ -1,0 +1,10 @@
+<html>
+<head>
+  <script>
+        var x = 10;
+        console.log(x);
+    </script>  
+</head>
+<body> 
+</body>
+</html>
