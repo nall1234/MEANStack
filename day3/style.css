@@ -1,0 +1,38 @@
+<style>
+        .error {
+            border: 2px solid red;
+            background-color: black;
+            color: crimson;
+            min-height: 100px;
+            padding: 10px;
+        }
+
+        .error p {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .input {
+            width: 100%;
+            border: 3px solid green;
+        }
+
+        .search {
+            min-height: 25px;
+        }
+
+        .user-input {
+            margin: 10px 0px;
+            text-align: center;
+        }
+
+        button.search {
+            height: 55px;
+            width: 500px;
+            margin: 5px;
+        }
+
+        .card {
+            border: 1px solid black;
+        }
+    </style>
