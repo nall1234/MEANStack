@@ -8,7 +8,7 @@
 </head>
 <body>
     <button id="button1">Get user</button>
-    <button id="button2">Get UserS</button>
+    <button id="button2">Get Users</button>
 
     <br><br>
     <h1>User</h1>
@@ -52,11 +52,11 @@
                     var users = JSON.parse(this.responseText);
                     var output = '';
                     for(var i in users){
-                        output += '<ul>'+
+                        output +='<ul>'+
                             '<li>ID: ' +users[i].id+'</li>'+
                             '<li>name: ' +users[i].name+'</li>'+
                             '<li>email: ' +users[i].Email+'</li>'+
-                            '<ul>';
+                            '</ul>';
                     }
                     document.getElementById('users').innerHTML = output;
 
