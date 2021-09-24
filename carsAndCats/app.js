@@ -1,9 +1,15 @@
 const http = require('http');
 const fs = require('fs');
 const server = http.createServer(function(request, response){
-    console.log('client request URL:', request.url);
+    const splitURL = request.url.split('/');
+        let fileType = splitURL[1];
+        console.log(fileType)
+        let file = splitURL[2]
+        console.log(file)
 
-    let file;
+    switch(fileType){
+        case 'styles'
+    }
 
     switch(request.url){
         case '/cars':
