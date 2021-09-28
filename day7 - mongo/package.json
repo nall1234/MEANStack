@@ -1,0 +1,15 @@
+{
+  "name": "mongopractice",
+  "version": "1.0.0",
+  "description": "mongo practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "mongo": "^0.1.0",
+    "mongoose": "^6.0.7"
+  }
+}
